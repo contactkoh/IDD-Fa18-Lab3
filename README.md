@@ -20,15 +20,17 @@ For this lab, we will be experimenting with a variety of sensors, sending the da
 ## Part B. RGB LED
 
 **How might you use this with only the parts in your kit? Show us your solution.**
- ![alt text](https://github.com/contactkoh/IDD-Fa18-Lab3/edit/master/blob/_______ )
+ ![alt text](https://github.com/contactkoh/IDD-Fa18-Lab3/blob/master/RGB1.jpg)
+ ![alt text](https://github.com/contactkoh/IDD-Fa18-Lab3/blob/master/RGB2.jpg)
+
   I used the sample code and the RGB LED and 3 resistors. 3 resistors going to the RGB leds and the Common Anode going to the +5V. 
 It changes colors RGB by looping. 
 
 ## Part C. Voltage Varying Sensors 
  
 ### 1. FSR, Flex Sensor, Photo cell, Softpot
- ![alt text](https://github.com/contactkoh/IDD-Fa18-Lab3/edit/master/blob/_______ )
-
+ ![alt text](https://github.com/contactkoh/IDD-Fa18-Lab3/blob/master/force1.jpg)
+ ![alt text](https://github.com/contactkoh/IDD-Fa18-Lab3/blob/master/force2.jpg)
 
 **a. What voltage values do you see from your force sensor?**
 About 400(when not pressed) ~ 1023(when pressed. 5V max)
