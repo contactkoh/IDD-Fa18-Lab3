@@ -27,14 +27,20 @@ It changes colors RGB by looping.
 ## Part C. Voltage Varying Sensors 
  
 ### 1. FSR, Flex Sensor, Photo cell, Softpot
+ ![alt text](https://github.com/contactkoh/IDD-Fa18-Lab3/edit/master/blob/_______ )
+
 
 **a. What voltage values do you see from your force sensor?**
+About 400(when not pressed) ~ 1023(when pressed. 5V max)
 
 **b. What kind of relationship does the voltage have as a function of the force applied? (e.g., linear?)**
+If I apply force(press), it goes up (max 1023, 5v max) 
 
 **c. Can you change the LED fading code values so that you get the full range of output voltages from the LED when using your FSR?**
 
+
 **d. What resistance do you need to have in series to get a reasonable range of voltages from each sensor?**
+
 
 **e. What kind of relationship does the resistance have as a function of stimulus? (e.g., linear?)**
 
