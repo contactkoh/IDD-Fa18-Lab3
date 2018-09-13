@@ -20,7 +20,9 @@ For this lab, we will be experimenting with a variety of sensors, sending the da
 ## Part B. RGB LED
 
 **How might you use this with only the parts in your kit? Show us your solution.**
-
+ ![alt text](https://github.com/contactkoh/IDD-Fa18-Lab3/edit/master/blob/_______ )
+  I used the sample code and the RGB LED and 3 resistors. 3 resistors going to the RGB leds and the Common Anode going to the +5V. 
+It changes colors RGB by looping. 
 
 ## Part C. Voltage Varying Sensors 
  
