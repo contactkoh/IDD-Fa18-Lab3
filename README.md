@@ -1,6 +1,7 @@
 # Data Logger (and using cool sensors!)
 
-*A lab report by John Q. Student.*
+*A lab report by HONGYUN (Kevin) OH*
+ho247@cornell.edu
 
 ## In The Report
 
