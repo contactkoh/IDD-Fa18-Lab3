@@ -36,19 +36,30 @@ It changes colors RGB by looping.
 About 400(when not pressed) ~ 1023(when pressed. 5V max)
 
 **b. What kind of relationship does the voltage have as a function of the force applied? (e.g., linear?)**
-If I apply force(press), it goes up (max 1023, 5v max) 
+If I apply force(press), it goes up (max 1023, 5v max) , so I think it is linear relationship.
 
-**c. Can you change the LED fading code values so that you get the full range of output voltages from the LED when using your FSR?**
+**c.In Examples->Basic->Fading the LED values range from 0-255. What do you have to do so that you get the full range of output voltages from the LED when using your FSR to change the LED color?
 
+The FSR is supposed to be reading 0~1023.  Therefore, to change the COLOR of the LED, I use the RGB color LED as the output.
+Depending of the analogRead value, if the FSR is pressed (say, reading 1023 when pressed), the variable 'brightness' would go into the if statement below to change the color. 
+
+brightness = analogRead(A0);
+  
+  if (brightness <=0 || brightness >= 1023) {
+    setColor(255, 0, 0);  // change the color
+    delay(2000);
+  }
 
 **d. What resistance do you need to have in series to get a reasonable range of voltages from each sensor?**
-
+About 100 Ohms seems to get a reasonable range of voltages for this task. We only had 1 kind of resistors in the Tinkerkit. 
 
 **e. What kind of relationship does the resistance have as a function of stimulus? (e.g., linear?)**
+The more stimulus/pressure it is applied to FSR, the Voltage goes up and resistance goes down (V=IR). So I think it is linear as well. 
 
 ### 2. Accelerometer
  
 **a. Include your accelerometer read-out code in your write-up.**
+
 
 ### 3. IR Proximity Sensor
 
