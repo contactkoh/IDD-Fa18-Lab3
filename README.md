@@ -75,7 +75,7 @@ Code:  (https://github.com/contactkoh/IDD-Fa18-Lab3/blob/master/accelerometer_TE
 
  ![alt text](https://github.com/contactkoh/IDD-Fa18-Lab3/blob/master/Accelerametor1.jpg)
 
- ![alt text](https://github.com/contactkoh/IDD-Fa18-Lab3/blob/master/Accelerometor2.jpg)
+ ![alt text](https://github.com/contactkoh/IDD-Fa18-Lab3/blob/master/Accelerometer2.jpg)
 
 
 
