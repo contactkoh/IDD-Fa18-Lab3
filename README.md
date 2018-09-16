@@ -36,7 +36,7 @@ It changes colors RGB by looping.
 About 400(when not pressed) ~ 1023(when pressed. 5V max)
 
 **b. What kind of relationship does the voltage have as a function of the force applied? (e.g., linear?)**
-If I apply force(press), it goes up (max 1023, 5v max) , so I think it is linear relationship.
+If I apply force(press), it goes up (max 1023, 5v max) , so I think it has linear characteristic, but also maxed at certain ranges so that it is working like a log (logarithmic) function. 
 
 **c.In Examples->Basic->Fading the LED values range from 0-255. What do you have to do so that you get the full range of output voltages from the LED when using your FSR to change the LED color?
 
@@ -54,11 +54,18 @@ brightness = analogRead(A0);
 About 100 Ohms seems to get a reasonable range of voltages for this task. We only had 1 kind of resistors in the Tinkerkit. 
 
 **e. What kind of relationship does the resistance have as a function of stimulus? (e.g., linear?)**
-The more stimulus/pressure it is applied to FSR, the Voltage goes up and resistance goes down (V=IR). So I think it is linear as well. 
+The more stimulus/pressure it is applied to FSR, the Voltage goes up and resistance goes down (V=IR). So it has a linear characteristic but within a maximum range (like a log or logarithmic relationship). 
 
 ### 2. Accelerometer
  
 **a. Include your accelerometer read-out code in your write-up.**
+
+First colume of X represents raw values, as well as the Y and Z. 
+Second colume of X represents the raw value scaled down by 2^8.  So, X is close to 0 when placed parallel to the ground.
+
+ ![alt text](https://github.com/contactkoh/IDD-Fa18-Lab3/blob/master/accelerometer_TEST.ino)
+
+ ![alt text](https://github.com/contactkoh/IDD-Fa18-Lab3/blob/master/Accelerametor1.jpg)
 
 
 ### 3. IR Proximity Sensor
