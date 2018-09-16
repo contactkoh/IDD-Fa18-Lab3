@@ -92,6 +92,8 @@ I merged the accelerometor (displayed on LCD) and the proximity (displayed on se
 
 Code:  (https://github.com/contactkoh/IDD-Fa18-Lab3/blob/master/accel_and_proxy.ino)
 
+VIDEO:  [Accelerometer & Proximity](https://youtu.be/FqHYhkXnpKs)
+
 
 ## Optional. Graphic Display
 
