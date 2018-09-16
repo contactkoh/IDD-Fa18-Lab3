@@ -40,6 +40,8 @@ If I apply force(press), it goes up (max 1023, 5v max) , so I think it has linea
 
 **c.In Examples->Basic->Fading the LED values range from 0-255. What do you have to do so that you get the full range of output voltages from the LED when using your FSR to change the LED color?
 
+[Changing LED color using FSR](https://youtu.be/5opCuWPJ3xo)
+
 The FSR is supposed to be reading 0~1023.  Therefore, to change the COLOR of the LED, I use the RGB color LED as the output.
 Depending of the analogRead value, if the FSR is pressed (say, reading 1023 when pressed), the variable 'brightness' would go into the if statement below to change the color. 
 
