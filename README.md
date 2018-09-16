@@ -99,11 +99,18 @@ VIDEO:  [Accelerometer & Proximity](https://youtu.be/FqHYhkXnpKs)
 
 **Take a picture of your screen working insert it here!**
 
+I studied the Nokia site link and tried to figure it out but it was too hard for me and was taking too long time. 
+https://learn.adafruit.com/nokia-5110-3310-monochrome-lcd/wiring
+
+
 ## Part D. Logging values to the EEPROM and reading them back
  
 ### 1. Reading and writing values to the Arduino EEPROM
 
 **a. Does it matter what actions are assigned to which state? Why?**
+
+
+
 
 **b. Why is the code here all in the setup() functions and not in the loop() functions?**
 
