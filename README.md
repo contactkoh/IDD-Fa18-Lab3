@@ -71,15 +71,20 @@ Second colume of X represents the raw value scaled down by 2^8.  So, X is close 
 VIDEO:  [Changing LED color using FSR](https://youtu.be/Y0H5mGHPpmQ)
 
 
- ![alt text](https://github.com/contactkoh/IDD-Fa18-Lab3/blob/master/accelerometer_TEST.ino)
+Code:  (https://github.com/contactkoh/IDD-Fa18-Lab3/blob/master/accelerometer_TEST.ino)
 
  ![alt text](https://github.com/contactkoh/IDD-Fa18-Lab3/blob/master/Accelerametor1.jpg)
+
+ ![alt text](https://github.com/contactkoh/IDD-Fa18-Lab3/blob/master/Accelerometor2.jpg)
 
 
 
 ### 3. IR Proximity Sensor
 
 **a. Describe the voltage change over the sensing range of the sensor. A sketch of voltage vs. distance would work also. Does it match up with what you expect from the datasheet?**
+
+
+
 
 **b. Upload your merged code to your lab report repository and link to it here.**
 
