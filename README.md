@@ -101,7 +101,7 @@ VIDEO:  [Accelerometer & Proximity](https://youtu.be/FqHYhkXnpKs)
 
 **Take a picture of your screen working insert it here!**
 
-I studied the Nokia site link and tried to figure it out but it was too hard for me and was taking too long time. 
+I studied the Nokia site link and tried to figure it out but it was too hard for me to do all these+ this within the given time, and everything was taking way too long time, coming from a non-electrical, non-hardware, business background.  
 https://learn.adafruit.com/nokia-5110-3310-monochrome-lcd/wiring
 
 
