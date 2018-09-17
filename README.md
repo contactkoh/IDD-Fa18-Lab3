@@ -109,16 +109,29 @@ https://learn.adafruit.com/nokia-5110-3310-monochrome-lcd/wiring
  
 ### 1. Reading and writing values to the Arduino EEPROM
 
+
 **a. Does it matter what actions are assigned to which state? Why?**
 
+When the SwitchState.ino runs, the map function returns a state value (0,1,or 2) taking into the range value (0~1024). 
+Depending on the state, each state would call a different method in a different file. 
+When Pot is turned up, "Reading from EEPROM" starts and values are read in. Last state is saved and when the POT is turned down back, the "DONE READING" and then "WRITING TO EEPROM" are printed. 
 
+ ![alt text](https://github.com/contactkoh/IDD-Fa18-Lab3/blob/master/EEPROM1.jpg)
+ 
+ ![alt text](https://github.com/contactkoh/IDD-Fa18-Lab3/blob/master/EEPROM2.jpg)
 
 
 **b. Why is the code here all in the setup() functions and not in the loop() functions?**
+Because each State in each of the three cases is called on and started when the main SwitchState calls them. Each state is then clearing the EEPROM and is run when it is called. 
+On the coding side, the main SwitchState loop calls for each of the 3 cases in each of the methods in each 3 files (for the 3 states). 
+Each state method then calls the setup()functions of its own state file, to start its own State.
 
 **c. How many byte-sized data samples can you store on the Atmega328?**
+Arduino Uno with Atmega328 has 1 kbyte of EEPROM storage. So it seems it can hold 1000 byte-sized data samples. 
+(reference: https://www.arduino.cc/en/Tutorial/EEPROMClear )
 
 **d. How would you get analog data from the Arduino analog pins to be byte-sized? How about analog data from the I2C devices?**
+
 
 **e. Alternately, how would we store the data if it were bigger than a byte? (hint: take a look at the [EEPROMPut](https://www.arduino.cc/en/Reference/EEPROMPut) example)**
 
