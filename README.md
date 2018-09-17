@@ -82,7 +82,9 @@ Code:  (https://github.com/contactkoh/IDD-Fa18-Lab3/blob/master/accelerometer_TE
 ### 3. IR Proximity Sensor
 
 **a. Describe the voltage change over the sensing range of the sensor. A sketch of voltage vs. distance would work also. Does it match up with what you expect from the datasheet?**
-The voltage seems to increase as I place my finger closer to the black sensor on the proximity sensor. If I move away my finger from the sensor, it drops instantaneously. The metrics are shown in the serial monitor as below.
+The voltage seems to increase as I place my finger closer to the black sensor on the proximity sensor. If I move away my finger from the sensor, it drops instantaneously. The metrics are shown in the serial monitor as below. Also, it is largely in line with their datasheet as the closer the distance the higher the voltage, and vice versa. 
+
+ ![alt text](https://github.com/contactkoh/IDD-Fa18-Lab3/blob/master/diagram.jpg)
 
  ![alt text](https://github.com/contactkoh/IDD-Fa18-Lab3/blob/master/proximity1.jpg)
 
@@ -125,6 +127,10 @@ https://learn.adafruit.com/nokia-5110-3310-monochrome-lcd/wiring
 ### 2. Design your logger
  
 **a. Insert here a copy of your final state diagram.**
+
+
+ ![alt text](https://github.com/contactkoh/IDD-Fa18-Lab3/blob/master/statediag1.jpg)
+
 
 ### 3. Create your data logger!
  
