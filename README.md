@@ -131,11 +131,29 @@ Arduino Uno with Atmega328 has 1 kbyte of EEPROM storage. So it seems it can hol
 (reference: https://www.arduino.cc/en/Tutorial/EEPROMClear )
 
 **d. How would you get analog data from the Arduino analog pins to be byte-sized? How about analog data from the I2C devices?**
-
+Perhaps I can use the highbyte() and lowbyte() functions in Arduino. Because int value in Arduino is 16 bits, taking the top 8 bits or low 8 bits would allow me to reduce it to byte-sized.  
+(Reference: http://forum.arduino.cc/index.php?topic=72993.0 )
 
 **e. Alternately, how would we store the data if it were bigger than a byte? (hint: take a look at the [EEPROMPut](https://www.arduino.cc/en/Reference/EEPROMPut) example)**
+If using a variable bigger than a byte, then need to store the value in more than one byte.
+Arduino's EEPROM is addressed by the byte, so use the consecutive addresses to store values in other variable types.
+e.g. 
+eeAddress += sizeof(float); //Move address to the next byte after float 'f'.
+(Reference: http://forum.arduino.cc/index.php?topic=41720.0
+https://www.arduino.cc/en/Reference/EEPROMPut  )
+
 
 **Upload your modified code that takes in analog values from your sensors and prints them back out to the Arduino Serial Monitor.**
+
+Code:  (https://github.com/contactkoh/IDD-Fa18-Lab3/blob/master/SwitchState2_Test.ino)
+
+Added the following to the SwitchState file:
+
+  int sensorValue = analogRead(A0);
+  Serial.println(sensorValue);
+
+ ![alt text](https://github.com/contactkoh/IDD-Fa18-Lab3/blob/master/Serial1.jpg)
+
 
 ### 2. Design your logger
  
