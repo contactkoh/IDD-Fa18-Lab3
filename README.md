@@ -169,10 +169,33 @@ Added the following to the SwitchState file:
 
 The data logger is based off of the SwitchState code samples.
 It goes from State 2 --> 1 --> 0  if I turn the potentiometer up, and then 0 --> 1 --> 2 if turn the potentiometer back to 0.
-Unfortunately, even after many hours and energy spent, I cannot 100% understand nor get 100% working on the data logger customization. Perhaps some step-by-step and detailed explanation during the class might be helpful.
 
-VIDEO:  [Data Logger](https://youtu.be/BaGjbQpQC7E)
+I changed the Reading from EEPROM section so that the bytes read are converted to char
 
+  for (int i = 0; i < EEPROMSIZE; i++) {
+    value = EEPROM.read(i);
+    //Serial.println(value);
+
+    // convert byte to char
+    char packetBuffer;
+    packetBuffer = (char) value;
+    Serial.println((char) packetBuffer);
+
+  }
+  
+  I also changed the String input from "Hello cornell tech" to "Recorded Data" which is recorded and replayed back (See Video below)
+  (Unfortunately, even after trying for many hours and much energy, I couldn't afford to spend more energy and time to dig deeper. )
+  
 Code:  (https://github.com/contactkoh/IDD-Fa18-Lab3/blob/master/SwitchState2.ino)
 
+This is my Data logger: 
+
+
+VIDEO:  [Data Logger](https://youtu.be/Wmf9rBSRRck)
+
+
+This was the sample SwitchState code that ran successfully:
+
+
+VIDEO:  [Data Logger](https://youtu.be/BaGjbQpQC7E)
 
