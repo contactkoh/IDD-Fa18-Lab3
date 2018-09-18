@@ -169,8 +169,10 @@ Added the following to the SwitchState file:
 
 The data logger is based off of the SwitchState code samples.
 It goes from State 2 --> 1 --> 0  if I turn the potentiometer up, and then 0 --> 1 --> 2 if turn the potentiometer back to 0.
+Unfortunately, even after many hours and energy spent, I cannot 100% understand nor get 100% working on the data logger customization. Perhaps some step-by-step and detailed explanation during the class might be helpful.
 
 VIDEO:  [Data Logger](https://youtu.be/BaGjbQpQC7E)
 
+Code:  (https://github.com/contactkoh/IDD-Fa18-Lab3/blob/master/SwitchState2.ino)
 
 
