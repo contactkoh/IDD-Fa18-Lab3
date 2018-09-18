@@ -185,11 +185,13 @@ I changed the Reading from EEPROM section so that the bytes read are converted t
   
   I also changed the String input from "Hello cornell tech" to "Recorded Data" which is recorded and replayed back (See Video below)
   (Unfortunately, even after trying for many hours and much energy, I couldn't afford to spend more energy and time to dig deeper. )
-  
-Code:  (https://github.com/contactkoh/IDD-Fa18-Lab3/blob/master/SwitchState2.ino)
 
 This is my Data logger: 
 
+Code:  (https://github.com/contactkoh/IDD-Fa18-Lab3/blob/master/SwitchState2.ino)
+Code:  (https://github.com/contactkoh/IDD-Fa18-Lab3/blob/master/state0.ino)
+Code:  (https://github.com/contactkoh/IDD-Fa18-Lab3/blob/master/state1.ino)
+Code:  (https://github.com/contactkoh/IDD-Fa18-Lab3/blob/master/state2.ino)
 
 VIDEO:  [Data Logger](https://youtu.be/Wmf9rBSRRck)
 
