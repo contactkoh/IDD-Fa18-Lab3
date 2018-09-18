@@ -160,9 +160,17 @@ Added the following to the SwitchState file:
 **a. Insert here a copy of your final state diagram.**
 
 
- ![alt text](https://github.com/contactkoh/IDD-Fa18-Lab3/blob/master/statediag1.jpg)
+ ![alt text](https://github.com/contactkoh/IDD-Fa18-Lab3/blob/master/statediag2.jpg)
 
 
 ### 3. Create your data logger!
  
 **a. Record and upload a short demo video of your logger in action.**
+
+The data logger is based off of the SwitchState code samples.
+It goes from State 2 --> 1 --> 0  if I turn the potentiometer up, and then 0 --> 1 --> 2 if turn the potentiometer back to 0.
+
+VIDEO:  [Data Logger](https://youtu.be/BaGjbQpQC7E)
+
+
+
